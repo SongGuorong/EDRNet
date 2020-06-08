@@ -17,7 +17,7 @@ source code for our IEEE TIM 2020 paper entitled *EDRNet: Encoder-Decoder Residu
 ## Training
 
 1. cd to `./Data`, and Unzip the file of `trainingDataset.zip` into this folder.
-2. **path of training images:** `./Data/trainingDataset/imgs_train/` **path of training labels:** `./Data/trainingDataset/masks_train/`
+2. **path of training images:**`./Data/trainingDataset/imgs_train/` **path of training labels:**`./Data/trainingDataset/masks_train/`
 3. run`python edrnet_train.py` to start training
 4. the trained model will be saved in `./trained_models`
 
