@@ -17,8 +17,7 @@ source code for our IEEE TIM 2020 paper entitled *EDRNet: Encoder-Decoder Residu
 ## Training
 
 1. cd to `./Data`, and Unzip the file of `trainingDataset.zip` into this folder.
-2. **path of training images:** `./Data/trainingDataset/imgs_train/`
-   **path of training labels:** `./Data/trainingDataset/masks_train/`
+2. **path of training images:** `./Data/trainingDataset/imgs_train/` **path of training labels:** `./Data/trainingDataset/masks_train/`
 3. run`python edrnet_train.py` to start training
 4. the trained model will be saved in `./trained_models`
 
@@ -26,8 +25,7 @@ source code for our IEEE TIM 2020 paper entitled *EDRNet: Encoder-Decoder Residu
 
 1. download the test dataset [SD-saliency-900.zip](https://drive.google.com/file/d/1yQdfow1-WvDilQTZ1zj1EbbErN1DksVF/view?usp=sharing), then Unzip it to the directory of `./Data`
 2. download the pre-trained model [EDRNet_epoch_600.pth](https://drive.google.com/file/d/1FJe9j-F7r3kdlEJgBC-Izi37ANytwLF-/view?usp=sharing), then put it to the directory of `./trained_models`
-3. **path of testing dataset:** `./Data/SD-saliency-900/imgs/`
-   **path of pre-trained model:** `./trained_models/EDRNet_epoch_600.pth`
+3. **path of testing dataset:** `./Data/SD-saliency-900/imgs/` **path of pre-trained model:** `./trained_models/EDRNet_epoch_600.pth`
 4. run`python edrnet_test.py` to start testing  
 5. the predict results will be saved in `./Data/test_results/`
 
