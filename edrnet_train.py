@@ -26,8 +26,8 @@ args = {
     'batch_size': 8,
     'lr': 0.001,
     'workers': 5,
-    'tra_img_dir': './Data/trainingDataset/imgs_train/',              # path of train images
-    'tra_lbl_dir': './Data/trainingDataset/masks_train/',             # path of train labels
+    'tra_img_dir': './Data/trainingDataset/imgs_train/',              # path of training images
+    'tra_lbl_dir': './Data/trainingDataset/masks_train/',             # path of training labels
     'image_ext': '.bmp',
     'label_ext': '.png',
     'checkpoint': './trained_models/',
