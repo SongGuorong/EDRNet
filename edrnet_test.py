@@ -35,8 +35,8 @@ def save_output(image_name, pred, d_dir):
 def main():
 	# --------- 1. get image path and name ---------
 
-	image_dir = './Data/imgs/'
-	prediction_dir = './Data/test_results/'
+	image_dir = './Data/SD-saliency-900/imgs/'              # path of testing dataset
+	prediction_dir = './Data/test_results/'                 # path of saving results
 	model_dir = './trained_models/EDRNet_epoch_600.pth'     # path of pre-trained model
 	img_name_list = glob.glob(image_dir + '*.bmp')
 
