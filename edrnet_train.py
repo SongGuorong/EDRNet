@@ -71,7 +71,7 @@ def main():
     tra_lbl_name_list = []
 
     for img_path in tra_img_name_list:
-        img_name = img_path.split("/")[-1]          # ubuntu
+        img_name = img_path.split("/")[-1]          
         imgIdx = img_name.split(".")[0]
         tra_lbl_name_list.append(args['tra_lbl_dir'] + imgIdx + args['label_ext'])
 
