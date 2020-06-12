@@ -27,7 +27,7 @@ def save_output(image_name, pred, d_dir):
 	im = Image.fromarray(predict_np*255).convert('RGB')
 	image = io.imread(image_name)
 	imo = im.resize((image.shape[1], image.shape[0]), resample=Image.BILINEAR)
-	img_name = image_name.split("/")[-1]       # ubuntu
+	img_name = image_name.split("/")[-1]       
 	imidx = img_name.split(".")[0]
 	imo.save(d_dir+imidx+'.png')
 
