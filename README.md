@@ -1,6 +1,6 @@
 # EDRNet
 
-source code for our IEEE TIM 2020 paper entitled *EDRNet: Encoder-Decoder Residual Network for Salient Object Detection of Strip Steel Surface Defects* (**DOI：10.1109/TIM.2020.3002277**) by Guorong Song, Kechen Song and Yunhui Yan.
+source code for our IEEE TIM 2020 paper entitled [EDRNet: Encoder-Decoder Residual Network for Salient Object Detection of Strip Steel Surface Defects](https://ieeexplore.ieee.org/document/9116810) (**DOI：10.1109/TIM.2020.3002277**) by Guorong Song, Kechen Song and Yunhui Yan.
 
 ## Requirement
 
