@@ -38,6 +38,12 @@ We also provide the experimental results of all the comparative methods in our p
 
 **You can also download all the files including `SD-saliency-900.zip, EDRNet_epoch_600.pth, Results` in BaiduYun Drive.(link:https://pan.baidu.com/s/1RSgkzNKxXA11ajtoFnk6Mw     code: z91m)**
 
+## Supplement
+Here, we provide the results tested on **Noisy Images** with *Salt and Pepper noise*. ([GoogleDrive](https://drive.google.com/drive/folders/1_ZHQabyt-ndrLnAOauXUqov9Yxp5Gsyl?usp=sharing)) BaiduYun Drive: (**link:https://pan.baidu.com/s/1jw8jHEpa_AWgf2rMpmsebQ code:c9gb**)
+- mat_Results.zip
+- NoisyImages.zip
+- NoisyTestResults.zip
+
 ## Performance Preview
 
 **Visual comparison**
